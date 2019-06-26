@@ -10,13 +10,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.apache.log4j.Logger;
 
-import com.autotesting.framework.screens.MailBaseScreen;
+class Photographer {
+    private final static Logger log = Logger.getLogger(Photographer.class);
 
-public class Photographer {
-    private static String SNAPSHOTS_FOLDER = "test-output/snapshot";
-    protected final static Logger log = Logger.getLogger(Photographer.class);
-
-    public static String getSnapshotName(String driverCommand) {
+    private static String getSnapshotName(String driverCommand) {
+        String SNAPSHOTS_FOLDER = "test-output/snapshot";
         File folder = new File(SNAPSHOTS_FOLDER);
         if (!folder.exists()) {
             try {
@@ -25,17 +23,17 @@ public class Photographer {
                 e.printStackTrace();
             }
         }
-        String timestamp = nowAsString("yyyyMMdd_HHmmss");
+        String timestamp = nowAsString();
         return folder.getAbsolutePath() + "/" + timestamp + "_" + driverCommand;
     }
 
-    private static String nowAsString(String dateFormat) {
+    private static String nowAsString() {
         Calendar cal = Calendar.getInstance();
-        SimpleDateFormat sdf = new SimpleDateFormat(dateFormat);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMdd_HHmmss");
         return sdf.format(cal.getTime());
     }
 
-    public static void doScreenshot(String caseName) {
+    static void doScreenshot(String caseName) {
         String filename = getSnapshotName(caseName) + ".png";
         File scrFile = ((TakesScreenshot)WebDriverRunner.getDriver())
                 .getScreenshotAs(OutputType.FILE);

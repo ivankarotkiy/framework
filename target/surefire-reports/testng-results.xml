@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="17" passed="17">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="255251" started-at="2019-06-26T12:16:49Z" finished-at="2019-06-26T12:21:04Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="255251" started-at="2019-06-26T12:16:49Z" finished-at="2019-06-26T12:21:04Z">
+      <class name="com.autotesting.framework.suits.IBLoginTest">
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="12197" started-at="2019-06-26T15:16:49Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="ButtonLoginTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="ButtonLoginTest" duration-ms="576" started-at="2019-06-26T15:17:01Z" description="Тестирование кнопки &#039;РЕГИСТРАЦИЯ&#039; на главной странице" finished-at="2019-06-26T15:17:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonLoginTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="797" started-at="2019-06-26T15:17:02Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:17:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11438" started-at="2019-06-26T15:17:03Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:17:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="ButtonForgotPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="ButtonForgotPasswordTest" duration-ms="1030" started-at="2019-06-26T15:17:14Z" description="Тестирование кнопки &#039;ЗАБЫЛИ ПАРОЛЬ?&#039; на странице &#039;Вход по логину и паролю&#039;" finished-at="2019-06-26T15:17:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonForgotPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="752" started-at="2019-06-26T15:17:15Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:17:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11290" started-at="2019-06-26T15:17:16Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:17:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="ButtonRegistrationTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="ButtonRegistrationTest" duration-ms="1467" started-at="2019-06-26T15:17:27Z" description="Тестирование кнопки &#039;РЕГИСТРАЦИЯ&#039; на странице &#039;Вход по логину и паролю&#039;" finished-at="2019-06-26T15:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonRegistrationTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="748" started-at="2019-06-26T15:17:29Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11179" started-at="2019-06-26T15:17:29Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="ButtonRegistrationACPTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="ButtonRegistrationACPTest" duration-ms="1048" started-at="2019-06-26T15:17:41Z" description="Тестирование кнопки &#039;Авторизация через ЭЦП&#039; на странице &#039;Вход по логину и паролю&#039;" finished-at="2019-06-26T15:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonRegistrationACPTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="796" started-at="2019-06-26T15:17:42Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11795" started-at="2019-06-26T15:17:42Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:17:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="ButtonLoginMSITest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="ButtonLoginMSITest" duration-ms="1507" started-at="2019-06-26T15:17:54Z" description="Тестирование кнопки &#039;Вход по МСИ&#039; на странице &#039;Вход по МСИ&#039;" finished-at="2019-06-26T15:17:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonLoginMSITest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="765" started-at="2019-06-26T15:17:56Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11445" started-at="2019-06-26T15:17:57Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:18:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="ValidAuthorizationTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="ValidAuthorizationTest" duration-ms="6421" started-at="2019-06-26T15:18:08Z" description="Тестирование валидной авторизации" finished-at="2019-06-26T15:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidAuthorizationTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="827" started-at="2019-06-26T15:18:14Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:18:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11469" started-at="2019-06-26T15:18:15Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="ValidLoginAndEmptyPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="ValidLoginAndEmptyPasswordTest" duration-ms="1272" started-at="2019-06-26T15:18:27Z" description="Тестирование валидного логина и пустого пароля" finished-at="2019-06-26T15:18:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginAndEmptyPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="749" started-at="2019-06-26T15:18:28Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11273" started-at="2019-06-26T15:18:29Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:18:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="ValidLoginAndWrongPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="ValidLoginAndWrongPasswordTest" duration-ms="8110" started-at="2019-06-26T15:18:40Z" description="Тестирование валидного логина и неправильного пароля" finished-at="2019-06-26T15:18:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginAndWrongPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="741" started-at="2019-06-26T15:18:48Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:18:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11603" started-at="2019-06-26T15:18:49Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:19:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="EmptyLoginAndValidPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="EmptyLoginAndValidPasswordTest" duration-ms="1478" started-at="2019-06-26T15:19:00Z" description="Тестирование пустого логина и валидного пароля" finished-at="2019-06-26T15:19:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyLoginAndValidPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="755" started-at="2019-06-26T15:19:02Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:19:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11536" started-at="2019-06-26T15:19:03Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:19:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="EmptyLoginAndEmptyPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="EmptyLoginAndEmptyPasswordTest" duration-ms="1794" started-at="2019-06-26T15:19:14Z" description="Тестирование пустого логина и валидного пароля" finished-at="2019-06-26T15:19:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyLoginAndEmptyPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="751" started-at="2019-06-26T15:19:16Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:19:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11817" started-at="2019-06-26T15:19:17Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:19:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="EmptyLoginAndWrongPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="EmptyLoginAndWrongPasswordTest" duration-ms="1443" started-at="2019-06-26T15:19:29Z" description="Тестирование пустого логина и неправильного пароля" finished-at="2019-06-26T15:19:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmptyLoginAndWrongPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="770" started-at="2019-06-26T15:19:30Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11484" started-at="2019-06-26T15:19:31Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="WrongLoginAndValidPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="WrongLoginAndValidPasswordTest" duration-ms="3896" started-at="2019-06-26T15:19:42Z" description="Тестирование неправильного логина и валидного пароля" finished-at="2019-06-26T15:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongLoginAndValidPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="754" started-at="2019-06-26T15:19:46Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:19:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11317" started-at="2019-06-26T15:19:47Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:19:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="WrongLoginAndEmptyPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="WrongLoginAndEmptyPasswordTest" duration-ms="1615" started-at="2019-06-26T15:19:58Z" description="Тестирование неправильного логина и пустого пароля" finished-at="2019-06-26T15:20:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongLoginAndEmptyPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="748" started-at="2019-06-26T15:20:00Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:20:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11347" started-at="2019-06-26T15:20:01Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:20:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="WrongLoginAndWrongPasswordTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="WrongLoginAndWrongPasswordTest" duration-ms="2028" started-at="2019-06-26T15:20:12Z" description="Тестирование неправильного логина и неправильного пароля" finished-at="2019-06-26T15:20:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongLoginAndWrongPasswordTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="764" started-at="2019-06-26T15:20:14Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:20:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11224" started-at="2019-06-26T15:20:15Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:20:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="CodeVisibleTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="CodeVisibleTest" duration-ms="4273" started-at="2019-06-26T15:20:26Z" description="Тестирование появления кода с картинки при трехкратной попытке ввести невалидные данные" finished-at="2019-06-26T15:20:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CodeVisibleTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="760" started-at="2019-06-26T15:20:30Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:20:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11419" started-at="2019-06-26T15:20:31Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:20:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="ButtonUpdateTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="ButtonUpdateTest" duration-ms="4918" started-at="2019-06-26T15:20:42Z" description="Тестирование кнопки &#039;Обновить&#039; при трехкратной попытке ввести невалидные данные" finished-at="2019-06-26T15:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonUpdateTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="741" started-at="2019-06-26T15:20:47Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:20:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="openPage()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="openPage" is-config="true" duration-ms="11359" started-at="2019-06-26T15:20:48Z" description="Переход на главную страницу авторизации" finished-at="2019-06-26T15:20:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method status="PASS" signature="WrongImageCodeErrorTextTest()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="WrongImageCodeErrorTextTest" duration-ms="4104" started-at="2019-06-26T15:20:59Z" description="Тестирование текста ошибки при вводе букв в поле для кода" finished-at="2019-06-26T15:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WrongImageCodeErrorTextTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.autotesting.framework.suits.IBLoginTest@d7b1517]" name="closeBrowser" is-config="true" duration-ms="833" started-at="2019-06-26T15:21:04Z" description="Выход из браузера. Закрытие драйвера" finished-at="2019-06-26T15:21:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.autotesting.framework.suits.IBLoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

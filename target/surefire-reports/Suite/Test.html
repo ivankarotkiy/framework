@@ -1,0 +1,164 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 26 15:16:49 MSK 2019</td>
+</tr>
+<tr><td>Total time:</td><td>255 seconds (255251 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.ButtonForgotPasswordTest()'><b>ButtonForgotPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование кнопки 'ЗАБЫЛИ ПАРОЛЬ?' на странице 'Вход по логину и паролю'</td>
+<td></td>
+<td>1</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.ButtonLoginMSITest()'><b>ButtonLoginMSITest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование кнопки 'Вход по МСИ' на странице 'Вход по МСИ'</td>
+<td></td>
+<td>1</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.ButtonLoginTest()'><b>ButtonLoginTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование кнопки 'РЕГИСТРАЦИЯ' на главной странице</td>
+<td></td>
+<td>0</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.ButtonRegistrationACPTest()'><b>ButtonRegistrationACPTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование кнопки 'Авторизация через ЭЦП' на странице 'Вход по логину и паролю'</td>
+<td></td>
+<td>1</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.ButtonRegistrationTest()'><b>ButtonRegistrationTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование кнопки 'РЕГИСТРАЦИЯ' на странице 'Вход по логину и паролю'</td>
+<td></td>
+<td>1</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.ButtonUpdateTest()'><b>ButtonUpdateTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование кнопки 'Обновить' при трехкратной попытке ввести невалидные данные</td>
+<td></td>
+<td>4</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.CodeVisibleTest()'><b>CodeVisibleTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование появления кода с картинки при трехкратной попытке ввести невалидные данные</td>
+<td></td>
+<td>4</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.EmptyLoginAndEmptyPasswordTest()'><b>EmptyLoginAndEmptyPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование пустого логина и валидного пароля</td>
+<td></td>
+<td>1</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.EmptyLoginAndValidPasswordTest()'><b>EmptyLoginAndValidPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование пустого логина и валидного пароля</td>
+<td></td>
+<td>1</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.EmptyLoginAndWrongPasswordTest()'><b>EmptyLoginAndWrongPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование пустого логина и неправильного пароля</td>
+<td></td>
+<td>1</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.ValidAuthorizationTest()'><b>ValidAuthorizationTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование валидной авторизации</td>
+<td></td>
+<td>6</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.ValidLoginAndEmptyPasswordTest()'><b>ValidLoginAndEmptyPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование валидного логина и пустого пароля</td>
+<td></td>
+<td>1</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.ValidLoginAndWrongPasswordTest()'><b>ValidLoginAndWrongPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование валидного логина и неправильного пароля</td>
+<td></td>
+<td>8</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.WrongImageCodeErrorTextTest()'><b>WrongImageCodeErrorTextTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование текста ошибки при вводе букв в поле для кода</td>
+<td></td>
+<td>4</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.WrongLoginAndEmptyPasswordTest()'><b>WrongLoginAndEmptyPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование неправильного логина и пустого пароля</td>
+<td></td>
+<td>1</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.WrongLoginAndValidPasswordTest()'><b>WrongLoginAndValidPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование неправильного логина и валидного пароля</td>
+<td></td>
+<td>3</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+<tr>
+<td title='com.autotesting.framework.suits.IBLoginTest.WrongLoginAndWrongPasswordTest()'><b>WrongLoginAndWrongPasswordTest</b><br>Test class: com.autotesting.framework.suits.IBLoginTest<br>Test method: Тестирование неправильного логина и неправильного пароля</td>
+<td></td>
+<td>2</td>
+<td>com.autotesting.framework.suits.IBLoginTest@d7b1517</td></tr>
+</table><p>
+</body>
+</html>
